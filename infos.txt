@@ -1,0 +1,8 @@
+Requisição HTTP
+
+URL: https://pokeapi.co/api/v2/pokemon
+    ${IP - que um domínio mascara com um endereço}/${PATH = caminho de identificação do recurso}
+
+Request Method: GET | POST | PUT | DELETE
+
+Query String: sempre após o ? 
