@@ -1,8 +1,7 @@
-# Pokaidex
-
 ![pokaidex](https://github.com/user-attachments/assets/5675cc9b-885a-4f73-bef2-80b979593d27)
 
-Este é um projeto de **Pokédex interativa** desenvolvida com **HTML, CSS e JavaScript**, que consome a [PokeAPI](https://pokeapi.co/) para exibir informações detalhadas sobre os Pokémon.
+# Pokaidex
+Este é um projeto de **Pokédex interativa** desenvolvida com **HTML, CSS, Angular e Typescript**, que consome a [PokeAPI](https://pokeapi.co/) para exibir informações detalhadas sobre os Pokémon.
 
 ## 📌 Funcionalidades
 
@@ -14,7 +13,8 @@ Este é um projeto de **Pokédex interativa** desenvolvida com **HTML, CSS e Jav
 
 - **HTML** - Estrutura da Pokédex.
 - **CSS** - Estilização e transições dinâmicas.
-- **JavaScript** - Manipulação do DOM e consumo da API.
+- **Angular** - Manipulação do DOM.
+- **Typescript** - Consumo da API.
 - **PokeAPI** - Fonte de dados dos Pokémon.
 
 ## 📜 Como Funciona
@@ -31,14 +31,6 @@ Este é um projeto de **Pokédex interativa** desenvolvida com **HTML, CSS e Jav
 - 🎬 Animações ao carregar as informações.
 - 🌈 Exibir a cor secundária para Pokémon com dois tipos.
 - ⭐ Salvar favoritos em **localStorage**.
-
-## 📷 Exemplo de Uso
-
-```javascript
-fetch('https://pokeapi.co/api/v2/pokemon/25')
-  .then(response => response.json())
-  .then(data => console.log(data));
-```
 
 ## 📎 Licença
 
